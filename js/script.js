@@ -36,3 +36,8 @@ const titles = document.getElementsByClassName("title");
 for (const title of titles){
     title.style.textAlign = "center";
 }
+
+// setAttribut along with nodeList, htmlCollection, parentNode, childNodes
+secondTitle2 = document.getElementById("second-title");
+// secondTitle2.getAttribute("style");
+secondTitle2.setAttribute("title", "ToolTip using Javascript");
